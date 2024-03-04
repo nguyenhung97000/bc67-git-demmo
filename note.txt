@@ -10,3 +10,10 @@ git remote add origin https://github.com/NguyenHung0908/bc67-demo-git.git : liê
 git add -add
 git commit -m "nội dung commit"
 git push -u origin master ( lần đầu tiên ) / git push ( lần thứ 2 trở đi )
+
+
+tạo nhánh / chuyển nhánh : commit trước khi thao tác
+
+git checkout -b tenNhanhMoi : tạo nhánhg
+git branch : hiển thị nhánh hiện tại
+git cheackout tenNhanhCanChuyen : chuyển sang nhánh khác
